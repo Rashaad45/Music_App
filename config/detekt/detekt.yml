@@ -1,0 +1,25 @@
+# Overrides on top of detekt's default config (buildUponDefaultConfig = true).
+# Only Compose-specific relaxations live here; everything else is stock.
+
+naming:
+  FunctionNaming:
+    # Composables are PascalCase.
+    ignoreAnnotated: ['Composable']
+
+style:
+  MagicNumber:
+    ignorePropertyDeclaration: true
+    ignoreCompanionObjectPropertyDeclaration: true
+    # dp/sp literals in layout code, theme colour tables, and test fixtures.
+    ignoreAnnotated: ['Composable', 'Preview']
+    excludes: ['**/test/**', '**/androidTest/**', '**/theme/**']
+  UnusedPrivateMember:
+    # @Preview functions are used by tooling only.
+    ignoreAnnotated: ['Preview']
+
+complexity:
+  LongParameterList:
+    functionThreshold: 8
+    ignoreDefaultParameters: true
+  LongMethod:
+    ignoreAnnotated: ['Composable']

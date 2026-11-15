@@ -1,0 +1,4 @@
+# Copy to local.properties (git-ignored) and fill in.
+sdk.dir=/path/to/Android/sdk
+# Free client id from https://devportal.jamendo.com (used from milestone 3)
+JAMENDO_CLIENT_ID=

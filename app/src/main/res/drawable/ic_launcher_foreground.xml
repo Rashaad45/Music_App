@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <!-- Outer ring -->
+  <path
+      android:fillColor="#00000000"
+      android:strokeColor="@color/rotor_launcher_foreground"
+      android:strokeWidth="5"
+      android:pathData="M54,30a24,24 0,1 1,0 48a24,24 0,1 1,0 -48z" />
+  <!-- Hub -->
+  <path
+      android:fillColor="@color/rotor_launcher_foreground"
+      android:pathData="M54,47a7,7 0,1 1,0 14a7,7 0,1 1,0 -14z" />
+  <!-- Blade -->
+  <path
+      android:fillColor="@color/rotor_launcher_accent"
+      android:pathData="M51.5,36L56.5,36L56.5,45L51.5,45Z" />
+</vector>

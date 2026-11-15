@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="designsystem_state_playing">Playing</string>
+  <string name="designsystem_state_paused">Paused</string>
+  <string name="designsystem_network_wifi">Online, Wi-Fi</string>
+  <string name="designsystem_network_cellular">Online, mobile data</string>
+  <string name="designsystem_network_offline">Offline</string>
+</resources>

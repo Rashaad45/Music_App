@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Graphite background. -->
+  <color name="rotor_window_background">#FF1B1D20</color>
+</resources>

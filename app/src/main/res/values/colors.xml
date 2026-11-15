@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Paper background, so there is no flash before Compose draws. -->
+  <color name="rotor_window_background">#FFF5F2EB</color>
+  <color name="rotor_launcher_background">#FF1C1B19</color>
+  <color name="rotor_launcher_foreground">#FFF5F2EB</color>
+  <color name="rotor_launcher_accent">#FFE0702E</color>
+</resources>
