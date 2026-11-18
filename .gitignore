@@ -1,19 +1,28 @@
-# Secrets: never commit
-local.properties
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+.env
 
-# Gradle / build
+# Android / Gradle
 .gradle/
 build/
-.kotlin/
-captures/
-*.apk
-*.aab
-
-# IDE
+**/build/
+local.properties
 .idea/
 *.iml
-.vscode/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.keystore
+*.jks
 
-# OS
-.DS_Store
-Thumbs.db
+# Node (if any)
+node_modules/
+
+# Large media
+*.wav
+*.flac
